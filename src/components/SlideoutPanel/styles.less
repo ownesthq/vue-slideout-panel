@@ -16,6 +16,7 @@
     background-color: rgba(0, 0, 0, .5);
     transition: opacity 0.3s ease;
     overflow-y: hidden;
+    z-index: 10001 !important;
 
     &.transparent {
       background-color: transparent;
@@ -54,6 +55,7 @@
       transition: transform 0.18s ease-out;
       overflow-y: auto;
       transition-delay: 200ms;
+      z-index: 10002 !important;
 
       &.open-on-left {
         right: auto;

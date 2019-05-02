@@ -99,7 +99,7 @@ const vm = {
       } else {
         panel.styles.height === '100%';
 
-        if (!panel.width) panel.styles.width = '80%';
+        if (!panel.width) panel.styles.width = '85%';
         else if (!panel.width.endsWith || !panel.width.endsWith('px')) panel.styles.width = `${panel.width}px`;
         else panel.styles.width = panel.width;
       }
